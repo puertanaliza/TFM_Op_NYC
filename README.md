@@ -1,14 +1,41 @@
-## License / Licencia
+## 🚦 Clasificación del tráfico urbano en Manhattan mediante Big Data y Deep Learning en Databricks
+📌 Descripción del proyecto
+Este repositorio contiene el Trabajo de Fin de Máster (TFM) del Máster Universitario en Big Data & Visual Analytics, evaluado con una calificación de 9/10.
 
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
-This means you are free to share, copy, redistribute, and adapt this work, even for commercial purposes, as long as proper credit is given.
+El objetivo principal es el desarrollo de un modelo de clasificación del tráfico urbano (por niveles de congestión) utilizando datos reales de movilidad en Manhattan, integrando técnicas de procesamiento masivo de datos, ingeniería de características y modelos de Deep Learning, todo ello desplegado en un entorno Databricks sobre Spark.
 
-You can read the full license text here: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+🧠 Tecnologías utilizadas
+Python (Pandas, NumPy, Scikit-learn, PyTorch, NewtWorkX, Seaborn, Matplotlib)
 
----
+Databricks (PySpark)
 
-Este proyecto está licenciado bajo la **Licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**.  
-Esto significa que puedes compartir, copiar, redistribuir y adaptar este trabajo, incluso con fines comerciales, siempre que otorgues el crédito apropiado.
+🔍 Enfoque metodológico
+Ingesta y limpieza de datos
 
-Puedes consultar el texto completo de la licencia aquí: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+Datos de movilidad urbana (Uber and Taxi Movement (Taxi $ Limosine Comission) + otras fuentes públicas de NYC)
+
+Tratamiento de valores nulos, gestión de valores atípicos, integración de datos 
+
+Feature engineering
+
+Extracción de variables relacionadas con congestión, espacio-tiempo, eventos y clima
+
+Agregaciones y transformaciones para obtener granularidad útil
+
+Modelado de clasificación
+
+Modelos entrenados: Random Forest, Redes Neuronales (PyTorch)
+
+Evaluación con métricas de clasificación: Precision, Recall, F1-score, Accuracy
+
+Automatización y trazabilidad
+
+Comparativa entre modelos y elección del óptimo
+
+📈 Resultados destacados
+Clasificación del tráfico en distintos niveles con precisión (F1 > 0.75)
+
+Identificación de variables clave en la congestión urbana
+
+Validación cruzada y robustez del modelo en distintos horarios y zonas de Manhattan
 
